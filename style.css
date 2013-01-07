@@ -1,0 +1,44 @@
+html, body, div, h1, h2, h3, p, table, a, center, ul, li { margin:0; padding:0; border:0; outline:0;
+  font-size:100%; vertical-align:baseline; background:transparent; }
+
+body { font-family: 'Ledger', serif; font-family: 'Playball', cursive;
+    vertical-align:baseline; }
+
+h1 { font-family: 'Playball', cursive; font-size:80px; text-align:center; }
+
+h2 { font-family: 'Ledger', serif; font-size:20px; }
+
+h3 { font-family: 'Ledger', serif; font-size:25px; }
+
+a, p { font-family: 'Ledger', serif; font-size:20px; }
+
+a { text-decoration:none; color:black; }
+
+a:hover { text-decoration:underline; }
+
+table { width:100%; text-align:center; }
+
+#bigname { font-family: 'Playball', cursive; font-size:80px; text-align:center;
+      text-decoration:none; }
+
+#toplinks { text-align:center; }
+    
+#container { height:100%; margin: 0 auto; }
+
+#center { width:1000px; max-width:1000px; margin:0 auto; padding-top:30px; }
+
+#content { margin-left:20px; margin-right:20px; }
+
+#quote { float:right; width:40%; font-weight:bold; text-align:center; }
+
+#resume { padding-left:30px; text-align:left; }
+
+#special { padding-left:0px; }
+
+.ind1 { padding-left:30px; }
+
+.ind2 { padding-left:50px; }
+
+.ind3 { padding-left:70px; }
+
+.ind4 { padding-left:90px; }
