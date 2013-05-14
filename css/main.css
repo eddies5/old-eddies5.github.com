@@ -6,7 +6,10 @@
 
 /* Global Reset */
 * {
+  background: transparent;
+  border: 0;
   margin: 0;
+  outline: 0;
   padding: 0;
 }
 
@@ -17,10 +20,10 @@ body {
   font: 13.34px Helvetica, Arial, sans-serif;
   font-size: small;
   text-align: center;
+  vertical-align: baseline;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; }
 
 h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
@@ -34,132 +37,99 @@ table {
   font: 100%;
 }
 
-/*****************************************************************************/
-/*
-/* Home
-/*
-/*****************************************************************************/
-ul.posts {
-  list-style-type: none;
-  margin-bottom: 2em;
-}
-
-ul.posts li {
-  line-height: 1.75em;
-}
-
-ul.posts span {
-  color: #aaa;
-  font-family: Monaco, "Courier New", monospace;
-  font-size: 80%;
+div {
+  display: block;
 }
 
 /*****************************************************************************/
 /*
-/* Site
+/* Header
 /*
 /*****************************************************************************/
-
-.site {
-  font-size: 115%;
-  text-align: justify;
-  width: 42em;
-  margin: 3em auto 2em;
-  line-height: 1.5em;
+#header {
+ padding:10px;
 }
-
-.site .header a {
-  font-weight: bold;
+header h1 {
+  margin-bottom: 0em;
+}
+header div {
+  text-align: center;
+}
+header nav h1 a:hover {
   text-decoration: none;
 }
-
-.site .header h1.title {
-  display: inline-block;
-  margin-bottom: 2em;
-}
-
-.site .header h1.title a {
-  color: #a00;
-}
-
-.site .header h1.title a:hover {
+header nav a {
   color: #000;
+  text-decoration: none;
 }
-
-.site .header a.extra {
-  color: #aaa;
-  margin-left: 1em;
-}
-
-.site .header a.extra:hover {
+header nav a:hover {
   color: #000;
+  text-decoration: underline;
 }
-
-.site .meta {
-  color: #aaa;
+header nav a:visited {
+  color: #000;
+  text-decoration: none;
 }
-
-.site .footer {
-  font-size: 80%;
-  color: #666;
-  border-top: 4px solid #eee;
-  margin-top: 2em;
-  overflow: hidden;
-}
-
-.site .footer .contact {
-  float: left;
-  margin-right: 3em;
-}
-
-.site .footer .contact a {
-  color: #8085C1;
-}
-
-.site .footer .rss {
-  margin-top: 1.1em;
-  margin-right: -.2em;
-  float: right;
-}
-
-.site .footer .rss img {
-  border: 0;
+header table {
+  width: 100%;
 }
 
 /*****************************************************************************/
 /*
-/* Posts
+/* Footer
 /*
 /*****************************************************************************/
-
-/* standard */
-#post pre {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .4em;
+#footer {
+  bottom: 0;
+  height: 60px;
+  /*position: absolute;*/
+  width: 100%;
 }
 
-#post ul, #post ol {
-  margin-left: 1.35em;
+/*****************************************************************************/
+/*
+/* Resume
+/*
+/*****************************************************************************/
+#resume {
+  margin-left: 80px;
+  text-align: left;
+  width: 100%;
+}
+#resume p {
+  margin: .5em 0;
+}
+.ind1 { padding-left: 30px; }
+.ind2 { padding-left: 50px; }
+.ind3 { padding-left: 70px; }
+.ind4 { padding-left: 90px; }
+
+/*****************************************************************************/
+/*
+/* General
+/*
+/*****************************************************************************/
+.biggest {
+  font-size: 80px;
+}
+.big {
+  font-size: 20px;
+}
+#center {
+  margin: 0 auto;
+  max-width: 1000px;
+  padding-top: 30px;
+  width: 1000px;
+}
+#container {
+  margin: 0 auto;
+  min-height: 100%;
+  /*position: absolute;*/
+}
+.fancy {
+  font-family: 'Playball', cursive;
 }
 
-#post code {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .2em;
-}
-
-#post pre code {
-  border: none;
-}
-
-/* terminal */
-#post pre.terminal {
-  border: 1px solid #000;
-  background-color: #333;
-  color: #FFF;
-}
-
-#post pre.terminal code {
-  background-color: #333;
+.ledger {
+  font-family: 'Ledger', serif;
 }
