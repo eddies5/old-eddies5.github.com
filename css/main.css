@@ -1,104 +1,13 @@
 /*****************************************************************************/
 /*
-/* Common
-/*
-/*****************************************************************************/
-
-/* Global Reset */
-* {
-  background: transparent;
-  border: 0;
-  margin: 0;
-  outline: 0;
-  padding: 0;
-}
-
-html, body { height: 100%; }
-
-body {
-  background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
-  font-size: small;
-  text-align: center;
-  vertical-align: baseline;
-}
-
-h1, h2, h3, h4, h5, h6 { font-size: 100%; }
-
-h1 { margin-bottom: 1em; }
-p { margin: 1em 0; }
-
-a         { color: #00a; }
-a:hover   { color: #000; }
-a:visited { color: #a0a; }
-
-table {
-  font-size: inherit;
-  font: 100%;
-}
-
-div {
-  display: block;
-}
-
-/*****************************************************************************/
-/*
-/* Header
-/*
-/*****************************************************************************/
-#header {
- padding:10px;
-}
-header h1 {
-  margin-bottom: 0em;
-}
-header div {
-  text-align: center;
-}
-header nav h1 a:hover {
-  text-decoration: none;
-}
-header nav a {
-  color: #000;
-  text-decoration: none;
-}
-header nav a:hover {
-  color: #000;
-  text-decoration: underline;
-}
-header nav a:visited {
-  color: #000;
-  text-decoration: none;
-}
-header table {
-  width: 100%;
-}
-
-/*****************************************************************************/
-/*
-/* Footer
-/*
-/*****************************************************************************/
-#footer {
-  bottom: 0;
-  height: 60px;
-  /*position: absolute;*/
-  width: 100%;
-}
-
-/*****************************************************************************/
-/*
 /* Resume
 /*
 /*****************************************************************************/
 #resume {
-  margin-left: 80px;
   text-align: left;
   width: 100%;
 }
-#resume p {
-  margin: .5em 0;
-}
+
 .ind1 { padding-left: 30px; }
 .ind2 { padding-left: 50px; }
 .ind3 { padding-left: 70px; }
@@ -110,26 +19,14 @@ header table {
 /*
 /*****************************************************************************/
 .biggest {
-  font-size: 80px;
+  font-size: 50px;
 }
 .big {
   font-size: 20px;
 }
-#center {
-  margin: 0 auto;
-  max-width: 1000px;
-  padding-top: 30px;
-  width: 1000px;
-}
-#container {
-  margin: 0 auto;
-  min-height: 100%;
-  /*position: absolute;*/
-}
 .fancy {
   font-family: 'Playball', cursive;
 }
-
 .ledger {
   font-family: 'Ledger', serif;
 }
