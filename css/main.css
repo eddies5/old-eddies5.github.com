@@ -19,7 +19,7 @@
 /*
 /*****************************************************************************/
 .biggest {
-  font-size: 50px;
+  font-size: 70px;
 }
 .big {
   font-size: 20px;
@@ -29,4 +29,7 @@
 }
 .ledger {
   font-family: 'Ledger', serif;
+}
+#name {
+  color: black;
 }
