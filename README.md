@@ -1,2 +1,1 @@
-My personal site.
-eddiesaenz.net
+[My personal site.] (http://www.eddiesaenz.net)
